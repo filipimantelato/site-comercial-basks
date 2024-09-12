@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Oswald;
+}
+
+
+.navbar{
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+.corpo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.corpo>h1{
+    color: #FF7F50;
+}
+
+.corpo>img{
+    width: 40vh;
+    height: 40vh;
+}
+
+.corpoCadastro{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.corpoCadastro>a>button{
+    background-color: #FF7F50;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #E9967A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(248, 222, 199);
+}
+
+.corpoCadastroProdutos{
+    text-align: center;
+    margin-top: 100px;
+    color: #FF7F50;
+}
+
+.corpoCadastroProdutos>h1{
+    margin-bottom: 50px;
+}
+
+.corpoCadastroProdutos>form>label{
+    font-size: 20px;
+}
+
+.corpoCadastroProdutos>form>input{
+    padding: 4px;
+}
+
+.botao{
+    background-color: #FF7F50;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(248, 222, 199);
+}
+
+.botao:hover{
+    color: #FF7F50;
+    background-color: rgb(248, 222, 199);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.corpoCadastroProdutos {
+    margin: 10vh auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px #FF7F50;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.corpoConsultaProdutos{
+    margin: 10vh auto;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px #FF7F50;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-cadastro-produtos label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-cadastro-produtos input[type="text"],
+.form-cadastro-produtos input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-cadastro-produtos input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background-color: #FF7F50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-cadastro-produtos input[type="submit"]:hover {
+    color: #FF7F50;
+    background-color: rgb(248, 222, 199);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
